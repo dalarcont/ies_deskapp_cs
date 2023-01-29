@@ -1,0 +1,9 @@
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Release\net6.0-windows\publish\ies_admin_academ.exe
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Release\net6.0-windows\publish\ies_admin_academ.dll
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Release\net6.0-windows\publish\ies_admin_academ.deps.json
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Release\net6.0-windows\publish\ies_admin_academ.runtimeconfig.json
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Release\net6.0-windows\publish\ies_admin_academ.pdb
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Release\net6.0-windows\publish\Newtonsoft.Json.dll
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Release\net6.0-windows\publish\System.Net.Http.Extensions.dll
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Release\net6.0-windows\publish\System.Net.Http.Formatting.dll
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Release\net6.0-windows\publish\System.Net.Http.Primitives.dll

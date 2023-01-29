@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ies_admin_academ" GeneratedClassName="IES">
+  <Profiles />
+  <Settings>
+    <Setting Name="ies_name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Universidad de Prueba</Value>
+    </Setting>
+    <Setting Name="ies_country_name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Colombia</Value>
+    </Setting>
+    <Setting Name="ies_app_env" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Administración y Académia</Value>
+    </Setting>
+    <Setting Name="ies_api_url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost</Value>
+    </Setting>
+    <Setting Name="ies_api_port" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">8315</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

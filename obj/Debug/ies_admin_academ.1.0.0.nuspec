@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ies_admin_academ</id>
+    <version>1.0.0</version>
+    <authors>ies_admin_academ</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.IO" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.4" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http.Formatting.Extension" version="5.2.3" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime" version="4.3.1" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Cryptography.Algorithms" version="4.3.1" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Cryptography.Encoding" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Cryptography.Primitives" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Cryptography.X509Certificates" version="4.3.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Debug\net6.0-windows\ies_admin_academ.runtimeconfig.json" target="lib\net6.0-windows7.0\ies_admin_academ.runtimeconfig.json" />
+    <file src="C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Debug\net6.0-windows\ies_admin_academ.dll" target="lib\net6.0-windows7.0\ies_admin_academ.dll" />
+  </files>
+</package>
