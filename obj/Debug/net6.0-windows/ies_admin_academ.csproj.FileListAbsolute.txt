@@ -21,3 +21,9 @@ C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Debug\net6.0-windows\System
 C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Debug\net6.0-windows\System.Net.Http.Primitives.dll
 C:\Users\SoporteTI\source\repos\ies_admin_academ\obj\Debug\net6.0-windows\ies_admin_academ.csproj.CopyComplete
 C:\Users\SoporteTI\source\repos\ies_admin_academ\obj\Debug\net6.0-windows\ies_admin_academ.Views.deskappMain.resources
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Debug\net6.0-windows\Antlr3.Runtime.dll
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Debug\net6.0-windows\Iesi.Collections.dll
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Debug\net6.0-windows\NHibernate.dll
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Debug\net6.0-windows\Remotion.Linq.dll
+C:\Users\SoporteTI\source\repos\ies_admin_academ\bin\Debug\net6.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\SoporteTI\source\repos\ies_admin_academ\obj\Debug\net6.0-windows\ies_admin_academ.Views.Apps.DK_AKA.TestingWindow.resources

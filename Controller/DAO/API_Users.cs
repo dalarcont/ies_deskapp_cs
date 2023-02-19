@@ -284,10 +284,10 @@ namespace ies_admin_academ.Controller.DAO
         /// API Consumption to get user app permissions
         /// </summary>
         /// <param name="data">Encoded user credentials</param>
-        public static AppPermissions[] getUserAppPermissions(string data)
+        public static user_dkApps[] getUserAppPermissions(string data)
         {
             //Result set
-            AppPermissions[] rs = null;
+            user_dkApps[] rs = null;
 
             //API URI
             string API_URI = apiRouter.URL_SERVICE + apiRouter.USERPATH + data + apiRouter.GET_APPS_PERMISSIONS;
@@ -308,7 +308,7 @@ namespace ies_admin_academ.Controller.DAO
                 if (response.IsSuccessStatusCode)
                 {
                     //API consumption successful
-                    var dataObjects = response.Content.ReadAsAsync<AppPermissions[]>().Result; //Read result
+                    var dataObjects = response.Content.ReadAsAsync<user_dkApps[]>().Result; //Read result
                     rs = dataObjects; //Load result in object
                 }
                 else
