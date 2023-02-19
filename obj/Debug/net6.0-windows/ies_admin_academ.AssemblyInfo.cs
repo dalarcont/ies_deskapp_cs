@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("ies_admin_academ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.1.1")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.3.1.1")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ies_admin_academ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ies_admin_academ")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.2.1.1")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.3.1.1")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 

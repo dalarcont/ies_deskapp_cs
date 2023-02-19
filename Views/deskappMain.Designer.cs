@@ -28,50 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Aplicaciones");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Periodos");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Matrículas");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("General");
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Periodo");
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Egresados");
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Certificados", new System.Windows.Forms.TreeNode[] {
-            treeNode27,
-            treeNode28,
-            treeNode29});
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Histórico pagos");
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Validar pagos");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Anular pago/factura");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Autorizar pago");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Pagos", new System.Windows.Forms.TreeNode[] {
-            treeNode31,
-            treeNode32,
-            treeNode33,
-            treeNode34});
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Asignaturas");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Financieras");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Grado");
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Permisos matrícula");
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Reingresos/Transferencias");
-            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Solicitudes");
-            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Estudiantes", new System.Windows.Forms.TreeNode[] {
-            treeNode36,
-            treeNode37,
-            treeNode38,
-            treeNode39,
-            treeNode40,
-            treeNode41});
-            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Académia", new System.Windows.Forms.TreeNode[] {
-            treeNode24,
-            treeNode25,
-            treeNode26,
-            treeNode30,
-            treeNode35,
-            treeNode42});
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Buscar empleado");
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Recurso humano", new System.Windows.Forms.TreeNode[] {
-            treeNode44});
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Administración", new System.Windows.Forms.TreeNode[] {
-            treeNode45});
             this.deskapp_bottom_statusbar = new System.Windows.Forms.StatusStrip();
             this.deskapp_bottom_statusbar_label = new System.Windows.Forms.ToolStripStatusLabel();
             this.deskapp_upper_menu = new System.Windows.Forms.MenuStrip();
@@ -170,57 +126,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.deskapp_appMenuTree.Location = new System.Drawing.Point(12, 141);
             this.deskapp_appMenuTree.Name = "deskapp_appMenuTree";
-            treeNode24.Name = "Nodo1";
-            treeNode24.Text = "Aplicaciones";
-            treeNode25.Name = "Nodo2";
-            treeNode25.Text = "Periodos";
-            treeNode26.Name = "Nodo3";
-            treeNode26.Text = "Matrículas";
-            treeNode27.Name = "Nodo5";
-            treeNode27.Text = "General";
-            treeNode28.Name = "Nodo6";
-            treeNode28.Text = "Periodo";
-            treeNode29.Name = "Nodo7";
-            treeNode29.Text = "Egresados";
-            treeNode30.Name = "Nodo4";
-            treeNode30.Text = "Certificados";
-            treeNode31.Name = "Nodo9";
-            treeNode31.Text = "Histórico pagos";
-            treeNode32.Name = "Nodo10";
-            treeNode32.Text = "Validar pagos";
-            treeNode33.Name = "Nodo11";
-            treeNode33.Text = "Anular pago/factura";
-            treeNode34.Name = "Nodo12";
-            treeNode34.Text = "Autorizar pago";
-            treeNode35.Name = "Nodo8";
-            treeNode35.Text = "Pagos";
-            treeNode36.Name = "Nodo14";
-            treeNode36.Text = "Asignaturas";
-            treeNode37.Name = "Nodo15";
-            treeNode37.Text = "Financieras";
-            treeNode38.Name = "Nodo16";
-            treeNode38.Text = "Grado";
-            treeNode39.Name = "Nodo17";
-            treeNode39.Text = "Permisos matrícula";
-            treeNode40.Name = "Nodo18";
-            treeNode40.Text = "Reingresos/Transferencias";
-            treeNode41.Name = "Nodo19";
-            treeNode41.Text = "Solicitudes";
-            treeNode42.Name = "Nodo13";
-            treeNode42.Text = "Estudiantes";
-            treeNode43.Name = "Nodo0";
-            treeNode43.Text = "Académia";
-            treeNode44.Name = "Nodo22";
-            treeNode44.Text = "Buscar empleado";
-            treeNode45.Name = "Nodo21";
-            treeNode45.Text = "Recurso humano";
-            treeNode46.Name = "Nodo20";
-            treeNode46.Text = "Administración";
-            this.deskapp_appMenuTree.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode43,
-            treeNode46});
             this.deskapp_appMenuTree.Size = new System.Drawing.Size(984, 420);
             this.deskapp_appMenuTree.TabIndex = 4;
+            this.deskapp_appMenuTree.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.deskapp_appMenuTree_NodeMouseDoubleClick);
             // 
             // label2
             // 

@@ -4,6 +4,9 @@
     <_LastSelectedProfileId>C:\Users\SoporteTI\source\repos\ies_admin_academ\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="Views\Apps\DK_AKA\TestingWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\deskappMain.cs">
       <SubType>Form</SubType>
     </Compile>

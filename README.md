@@ -30,6 +30,9 @@ This desktop software works as a user interface to perform management operations
 - ### VERSION 1.2.1.1
   Includes: Functional login and empty Deskapp main window.
 
+- ### VERSION 1.3.1.1
+  Includes: Login, Deskapp main window, apps list, open blank window at app call.
+
 
 ## Authors
 
